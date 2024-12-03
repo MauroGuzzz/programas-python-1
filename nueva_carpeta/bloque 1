@@ -1,1 +1,18 @@
 # p1- Mostrar tu nombre
+Un programa simple en Python que solicita al usuario su nombre y muestra un saludo personalizado.
+
+📋 Descripción
+Este programa es un ejemplo básico de interacción con el usuario en Python. Demuestra cómo utilizar las funciones input() y print() para capturar información desde la consola y mostrar un mensaje dinámico.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+🛠️ Funcionalidades
+Solicita al usuario que ingrese su nombre.
+Muestra un saludo personalizado utilizando el nombre ingresado.
+------------------------------------------------------------------
+📂 Código
+# Este programa mostrará tu nombre
+nombre = input("¿Cómo te llamas? ")
+print("Hola,", nombre, "!")
+-------------------------------
+🖥️ Ejemplo de uso
+¿Como te llamas? Juan
+Hola, Juan!
