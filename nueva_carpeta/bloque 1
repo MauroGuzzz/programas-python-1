@@ -16,3 +16,38 @@ print("Hola,", nombre, "!")
 🖥️ Ejemplo de uso
 ¿Como te llamas? Juan
 Hola, Juan!
+-------------------------------------------
+# p2- P2.- Fiesta de Chorchis y Choto
+Este programa utiliza operaciones lógicas en Python para determinar si se realizará una fiesta o no, basado en ciertas condiciones representadas por valores booleanos.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+📋 Descripción
+El programa evalúa combinaciones de dos variables booleanas (A y B), representando condiciones para que se haga la fiesta. La lógica sigue esta regla:
+La fiesta se lleva a cabo si not(A or B) es verdadero.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Se presentan cuatro combinaciones posibles de los valores de A y B, y para cada combinación se evalúa si hay fiesta o no.
+-------------------------------------------------------------------------------------------------------------------------
+📂 Código
+# P2.- Fiesta de Chorchis y Choto   
+
+# | A | B || not(A or B) |  
+# | 0 | 0 ||      1      |  
+# | 0 | 1 ||      0      |  
+# | 1 | 0 ||      0      |  
+# | 1 | 1 ||      0      |  
+
+print(not(False or False))  # Hay fiesta (True)  
+print(not(False or True))   # No hay fiesta (False)  
+print(not(True or False))   # No hay fiesta (False)  
+print(not(True or True))    # No hay fiesta (False)  
+-------------------------------------------------------
+🛠️ Funcionalidades
+Evalúa todas las combinaciones posibles de dos condiciones booleanas (A y B).
+Determina si se cumple la lógica para hacer la fiesta.
+------------------------------------------------------------------------------
+🖥️ Ejemplo de salida
+True  
+False  
+False  
+False  
+True indica que habrá fiesta.
+False indica que no habrá fiesta.
